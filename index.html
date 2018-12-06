@@ -1,457 +1,135 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-
 <head>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109183608-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', 'UA-109183608-1');
-    </script>
-
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Alejandrina Patron</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <title>Alejandrina Patrón</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/css/bootstrap-slider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+<body>
+	<div class = "jumbotron" style="background:#fff;">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">AP</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#resume">Resume</a>
+            <h1 align="center">Hi, I'm Ale</h1>
+            <h3 align="center">I'm a Software Engineer</h3>
+            <br>
+    		<div align="center">
+    			<p class="subtitle">This is my resume: </p>
+                <br>
+                <iframe src="files/AlejandrinaPatronResume.pdf#view=fill" width="90%" height="480"></iframe>
+    		</div>
+        </div>
+        <br><br>
+        <div class="container" align="center">
+            <p class="subtitle">These are some projects I've worked on: </p>
+            <div>
+                <hr>
+                <h4>Left - Recipes by Ingredients</h4>
+                <img src="img/portfolio/Left-Details.png" width="50%"class="img-responsive img-centered" alt="">
+                <p>Left is an iOS app that allows you to easily search from over 200,000 recipes based on the ingredients you provide.</p>
+                <ul class="list-inline item-details">
+                    <li>
+                        <strong><a href="https://itunes.apple.com/us/app/left-recipes-by-ingredients/id1115486378?ls=1&mt=8" target="_blank">View on the App Store</a><a> | </a> <a href="https://github.com/apatronl/Left" target="_blank">View source code</a>
+                        </strong>
                     </li>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" width="250" height="250" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Alejandrina Patron</span>
-                        <!-- <hr class="star-light"> -->
-                        <span class="skills">Software Engineer</span>
-                    </div>
-                </div>
             </div>
-        </div>
-    </header>
-    <!-- Portfolio Grid Section -->
-    <section class="success" id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <p>Left</p>
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Left2.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <p>Rain</p>
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Rain2.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <p>Code Hunt</p>
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/CodeHunt.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <!-- <div class="col-sm-4 portfolio-item">
-                    <p>Momenta</p>
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Momenta.png" class="img-responsive" alt="">
-                    </a>
-                </div> -->
-                <div class="col-sm-4 portfolio-item">
-                    <p>Sweet Data</p>
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/SweetData.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <p>World Happiness Visualization</p>
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/WorldHappiness.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- About Section -->
-    <!-- <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-primary">
-                </div>
+            <hr>
+
+            <div>
+
+                <h4>Rain</h4>
+                <img src="img/portfolio/Rain-Details.png" width="50%"class="img-responsive img-centered" alt="">
+                <p>Rain allows you to see current, hourly, and daily weather forecasts.</p>
+                <ul class="list-inline item-details">
+                    <li>
+                        <strong><a href="https://github.com/apatronl/Rain">View source code.</a>
+                        </strong>
+                    </li>
+                </ul>
+
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>My name is Alejandrina and I'm a <b>Computer Science</b> student concentrating in <b>Media + People</b> at Georgia Tech. I'm passionate about technology and entrepreneurship, and I'm especially interested in <b>iOS</b> app development and <b>UI/UX</b> design.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Born and raised in <b>Mexico</b>, I have a passion for travel and exploration. With my work, I hope to <b>inspire</b> others to become <b>thinkers</b> and <b>makers</b>, and to strive to make the world a better place for everyone.</p>
-                </div>
+
+            <hr>
+
+            <div>
+
+                <h4>Code Hunt</h4>
+                <img src="img/portfolio/CodeHunt-Details.png" width="50%"class="img-responsive img-centered" alt="">
+                <p>I believe everyone should have access to Computer Science, that's why I decided to build Code Hunt. Code Hunt is an iOS app that takes advantage of Code.org's local school database to let anyone in the world search for schools offering programming classes.</p>
+                <ul class="list-inline item-details">
+                    <li>
+                        <strong><a href="https://itunes.apple.com/us/app/code-hunt/id1135311189?ls=1&mt=8">View on the App Store.</a>
+                        </strong>
+                    </li>
+                </ul>
+
             </div>
+
+            <hr>
+
+            <div>
+                <h4>Sweet Data</h4>
+                <p>Sweet Data is an information visualization which allows users to explore people's preference of Halloween candies, observe which candies cause most joy or despair, and learn which candies are most or least popular in each state in the US.</p>
+                <a href="https://apatronl.github.io/SweetData" target="_blank">
+                    <img src="img/portfolio/SweetData-Details.png" width="50%"class="img-responsive img-centered" alt="">
+                </a>
+                <ul class="list-inline item-details">
+                    <li>
+                        <strong><a href="https://apatronl.github.io/SweetData" target="_blank">View full visualization</a></strong>
+                        <a> | </a>
+                        <strong><a href="https://github.com/apatronl/SweetData" target="_blank">View source code</a></strong>
+                    </li>
+                </ul>
+
+            </div>
+
+            <hr>
+
+            <div>
+
+                <h4>World Happiness Visualization</h4>
+                <p>The UN Sustainable Development Solutions Network (SDSN) develops a yearly World Happiness Report, which is a survey of the state of global happiness, and ranks the world's countries by their happiness levels. My visualization allows you to explore these data and learn about the happiest countries.</p>
+                <a href="https://apatronl.github.io/WorldHappiness" target="_blank">
+                    <img src="img/portfolio/WorldHappiness-Details.png" width="50%"class="img-responsive img-centered" alt="">
+                </a>
+                <ul class="list-inline item-details">
+                    <li>
+                        <strong><a href="https://apatronl.github.io/WorldHappiness" target="_blank">View full visualization</a></strong>
+                        <a> | </a>
+                        <strong><a href="https://github.com/apatronl/WorldHappiness" target="_blank">View source code</a></strong>
+                    </li>
+                </ul>
+
+            </div>
+
         </div>
-    </section> -->
 
-    <!-- Resume Section -->
-    <section class="success" id="resume">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Resume</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <iframe src="files/AlejandrinaPatronResume.pdf" width="100%" height="580" height="100%" ></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
+        <br><hr><br>
 
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Find Me</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="mailto:alepatronlopez@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/alejandrinapatron" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://www.github.com/apatronl" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://getpocket.com/@456TxAc5gnYzzpb05bd1870d0lpbg6c33f7y89Z409P0VQf9b4dhvV9bhs8gO4e9" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-get-pocket"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        "The people who are crazy enough to think they can change the world are the ones who do."
-                    </div>
-                    <div class="col-lg-12">
-                        Copyright &copy; Alejandrina Patron 2018 • Made in 🇲🇽
-                    </div>
+        <div align="center">
+            <a href="mailto:alepatronlopez@gmail.com" class="btn-social btn-outline"><i class="fa fa-lg fa-fw fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/alejandrinapatron" target="_blank" class="btn-social btn-outline"><i class="fa fa-lg fa-fw fa-linkedin"></i></a>
+            <a href="https://www.github.com/apatronl" target="_blank" class="btn-social btn-outline"><i class="fa fa-lg fa-fw fa-github"></i></a>
 
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Left - Recipes by Ingredients</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/Left-Details.png" class="img-responsive img-centered" alt="">
-                            <p>Left is an iOS app that allows you to easily search from over 200,000 recipes based on the ingredients you provide.</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="https://itunes.apple.com/us/app/left-recipes-by-ingredients/id1115486378?ls=1&mt=8" target="_blank">View on the App Store</a><a> | </a> <a href="https://github.com/apatronl/Left" target="_blank">View source code</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Rain</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/Rain-Details.png" class="img-responsive img-centered" alt="">
-                            <p>Rain allows you to see current, hourly, and daily weather forecasts.</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="https://github.com/apatronl/Rain">View source code.</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Code Hunt</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/CodeHunt-Details.png" class="img-responsive img-centered" alt="">
-                            <p>I believe everyone should have access to Computer Science, that's why I decided to build Code Hunt. Code Hunt is an iOS app that takes advantage of Code.org's local school database to let anyone in the world search for schools offering programming classes.</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="https://itunes.apple.com/us/app/code-hunt/id1135311189?ls=1&mt=8">View on the App Store.</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Momenta</h2>
-                            <hr class="star-primary">
-                            <!-- <img src="img/portfolio/CodeHunt-Details.png" class="img-responsive img-centered" alt=""> -->
-                            <p>Coming soon...</p>
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Sweet Data</h2>
-                            <hr class="star-primary">
-                            <p>Sweet Data is an information visualization which allows users to explore people's preference of Halloween candies, observe which candies cause most joy or despair, and learn which candies are most or least popular in each state in the US.</p>
-                            <a href="https://apatronl.github.io/SweetData" target="_blank">
-                                <img width="600" src="img/portfolio/SweetData-Details.png" class="img-responsive img-centered" alt="">
-                            </a>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="https://apatronl.github.io/SweetData" target="_blank">View full visualization</a></strong>
-                                    <a> | </a>
-                                    <strong><a href="https://github.com/apatronl/SweetData" target="_blank">View source code</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>World Happiness Visualization</h2>
-                            <hr class="star-primary">
-                            <p>The UN Sustainable Development Solutions Network (SDSN) develops a yearly World Happiness Report, which is a survey of the state of global happiness, and ranks the world's countries by their happiness levels. My visualization allows you to explore these data and learn about the happiest countries.</p>
-                            <a href="https://apatronl.github.io/WorldHappiness" target="_blank">
-                                <img width="750" src="img/portfolio/WorldHappiness-Details.png" class="img-responsive img-centered" alt="">
-                            </a>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="https://apatronl.github.io/WorldHappiness" target="_blank">View full visualization</a></strong>
-                                    <a> | </a>
-                                    <strong><a href="https://github.com/apatronl/WorldHappiness" target="_blank">View source code</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
 
 </body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </html>
