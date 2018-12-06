@@ -23,9 +23,14 @@
     		<div align="center">
     			<p class="subtitle">This is my resume: </p>
                 <br>
-                <iframe src="files/AlejandrinaPatronResume.pdf#view=fill" width="90%" height="480"></iframe>
+                <iframe id="resumeFrame" src="files/AlejandrinaPatronResume.pdf#view=fill" width="90%" height="480"></iframe>
     		</div>
         </div>
+        <script>
+            document.getElementById("resumeFrame").contentWindow.onload = function() {
+                this.document.getElementsByTagName("img")[0].style.width="100%";
+            };
+        </script>
         <br><br>
         <div class="container" align="center">
             <p class="subtitle">These are some projects I've worked on: </p>
@@ -100,7 +105,7 @@
                 <h4>World Happiness Visualization</h4>
                 <p>The UN Sustainable Development Solutions Network (SDSN) develops a yearly World Happiness Report, which is a survey of the state of global happiness, and ranks the world's countries by their happiness levels. My visualization allows you to explore these data and learn about the happiest countries.</p>
                 <a href="https://apatronl.github.io/WorldHappiness" target="_blank">
-                    <img src="img/portfolio/WorldHappiness-Details.png" width="50%"class="img-responsive img-centered" alt="">
+                    <img src="img/portfolio/WorldHappiness-Details.png" width="60%"class="img-responsive img-centered" alt="">
                 </a>
                 <ul class="list-inline item-details">
                     <li>
