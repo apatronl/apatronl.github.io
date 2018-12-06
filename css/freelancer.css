@@ -67,6 +67,9 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+.jumbotron {
+    background: #18BC9C;
+}
 header {
   text-align: center;
   background: #18BC9C;
@@ -317,7 +320,7 @@ footer .footer-below {
   background-color: #233140;
 }
 .btn-outline {
-  color: white;
+  color: black;
   font-size: 20px;
   border: solid 2px white;
   background: transparent;
@@ -330,7 +333,7 @@ footer .footer-below {
 .btn-outline.active {
   color: #18BC9C;
   background: white;
-  border: solid 2px white;
+  border: solid 2px #18BC9C;
 }
 .btn-primary {
   color: white;
@@ -420,7 +423,7 @@ fieldset[disabled] .btn-success.active {
   display: inline-block;
   height: 50px;
   width: 50px;
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius: 100%;
   text-align: center;
   font-size: 20px;
