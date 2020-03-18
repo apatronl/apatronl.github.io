@@ -1,4 +1,8 @@
-img{
+.profile {
+    width: 10%;
+}
+
+img {
     width: 50%;
 }
 
@@ -9,7 +13,10 @@ img{
 }
 
 @media (max-width: 950px) {
-  img {
-      width: 95%;
-  }
+    .profile {
+        width: 30%;
+    }
+    img {
+        width: 95%;
+    }
 }
